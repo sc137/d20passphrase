@@ -7,10 +7,10 @@ https://ssd.eff.org/tr/blog/how-roll-strong-password-20-sided-dice-and-fandom-in
 usage:
 
     $ ./generate_passphrase.py
-    You're passphrase is:  descended sequences doctoring
+    You're passphrase is:  descended_sequences_doctoring
 
     $ ./generate_passphrase.py potter
-    You're passphrase is:  convincing quietly potion-making
+    You're passphrase is:  convincing_quietly_potion-making
 
 You can specify any text file without the .txt extension. It will use trek by default.
 

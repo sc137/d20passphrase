@@ -37,6 +37,7 @@ def gen_passphrase(x=3, num=3, die=20):
         # print(cur)
         passphrase = passphrase + lookup(cur)
         i = i + 1
+    passphrase = passphrase[:-1]
     print("You're passphrase is: ", passphrase)
 
 def lookup(str1):
@@ -50,7 +51,7 @@ def lookup(str1):
             if str1 in line:
                 out = line.split()
                 results = results + out
-                phrase = str(results[1]) + " "
+                phrase = str(results[1]) + "_"
         searchfile.close()
         return phrase
     else:
